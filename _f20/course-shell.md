@@ -31,7 +31,7 @@ Science curricula.
 # Class structure
 
 The class consists of 11 1-hour lectures, each one centering on a
-[particular topic](/2020/). The lectures are largely independent,
+[particular topic](/{{site.offering}}/). The lectures are largely independent,
 though as the semester goes on we will presume that you are familiar
 with the content from the earlier lectures. We have lecture notes
 online, but there will be a lot of content covered in class (e.g. in the

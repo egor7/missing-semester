@@ -20,14 +20,6 @@ Under the following terms:
 
 This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
 
-## Contribution guidelines
+## Acknowledgements / Upstream sources
 
-You can submit corrections and suggestions to the course material by submitting issues and pull requests on our GitHub [repo](https://github.com/missing-semester/missing-semester). This includes the captions for the video lectures which are also in the repo (see [here](https://github.com/missing-semester/missing-semester/tree/master/static/files/subtitles/2020)).
-
-## Translation guidelines
-
-You are free to translate the lecture notes and exercises as long as you follow the license terms.
-If your translation mirrors the course structure, please contact us so we can link your translated version from our page.
-
-For translating the video captions, please submit your translations as community contributions in YouTube.
-
+This course is based upon MIT's [Missing Semester](https://github.com/missing-semester/missing-semester).

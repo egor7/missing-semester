@@ -1,6 +1,11 @@
-# Setup
+# Refactored customizations
 title: 'the missing semester of your cs education'
-url: https://missing.csail.mit.edu
+url: https://www.cs.uic.edu/~ckanich/missing/
+repository: https://github.com/kaytwo/missing-semester
+ckanich: https://www.cs.uic.edu/~ckanich/
+email: ckanich@uic.edu
+youtube: https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J
+offering: f20
 
 # Settings
 markdown: kramdown
@@ -11,14 +16,12 @@ highlighter: rouge
 permalink: /:title/
 future: true
 # safe: true # breaks local rendering if enabled
-timezone: America/New_York
+timezone: America/Chicago
 analytics:
-  tracking_id: UA-53167467-11
+  tracking_id: UA-21532225-1
 
 collections:
-  '2019':
-    output: true
-  '2020':
+  'f20':
     output: true
 
 # Excludes

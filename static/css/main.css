@@ -129,13 +129,13 @@ pre code {
 }
 
 a {
-  color: #54008c;
+  color: #D50032;
   text-decoration: underline;
 }
 
 a:hover {
   color: #fff;
-  background-color: #54008c;
+  background-color: #D50032;
 }
 
 img, video {
@@ -228,7 +228,7 @@ hr {
   margin: 0;
   padding: 0.25rem 1rem;
   font-family: "Source Code Pro", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace;
-  background: #54008c;
+  background: #D50032;
   color: #fff;
 }
 
@@ -249,7 +249,7 @@ hr {
 }
 
 a#logo {
-  color: #f2deff;
+  color: #001E62;
 }
 
 a:hover#logo {

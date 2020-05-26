@@ -16,13 +16,12 @@ only enables you to spend less time on figuring out how to bend your tools to
 your will, but it also lets you solve problems that would previously seem
 impossibly complex.
 
+This course functions as a module that's a jumping off point for many of the
+topics in UIC's CS 361: Systems Programming: getting acquainted with
+technologies like shells and docker containers are great introductions to
+topics like library linking, the user/kernel boundary, and file management.
+
 Read about the [motivation behind this class](/about/).
-
-{% comment %}
-# Registration
-
-Sign up for the IAP 2020 class by filling out this [registration form](https://forms.gle/TD1KnwCSV52qexVt9).
-{% endcomment %}
 
 # Schedule
 
@@ -32,7 +31,7 @@ Sign up for the IAP 2020 class by filling out this [registration form](https://f
 {% endcomment %}
 
 <ul>
-{% assign lectures = site['2020'] | sort: 'date' %}
+{% assign lectures = site['f20'] | sort: 'date' %}
 {% for lecture in lectures %}
     {% if lecture.phony != true %}
         <li>
@@ -48,48 +47,16 @@ Sign up for the IAP 2020 class by filling out this [registration form](https://f
 </ul>
 
 Video recordings of the lectures are available [on
-YouTube](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J).
+YouTube]({{site.youtube}}).
 
 # About the class
 
-**Staff**: This class is co-taught by [Anish](https://www.anishathalye.com/), [Jon](https://thesquareplanet.com/), and [Jose](http://josejg.com/).
-**Questions**: Email us at [missing-semester@mit.edu](mailto:missing-semester@mit.edu).
-
-# Beyond MIT
-
-We've also shared this class beyond MIT in the hopes that others may
-benefit from these resources. You can find posts and discussion on
-
- - [Hacker News](https://news.ycombinator.com/item?id=22226380)
- - [Lobsters](https://lobste.rs/s/ti1k98/missing_semester_your_cs_education_mit)
- - [/r/learnprogramming](https://www.reddit.com/r/learnprogramming/comments/eyagda/the_missing_semester_of_your_cs_education_mit/)
- - [/r/programming](https://www.reddit.com/r/programming/comments/eyagcd/the_missing_semester_of_your_cs_education_mit/)
- - [Twitter](https://twitter.com/jonhoo/status/1224383452591509507)
- - [YouTube](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
-
-# Translations
-
-- [Chinese: missing-semester-cn.github.io](https://missing-semester-cn.github.io/)
-
-Note: these are external links to community translations. We have not vetted
-them.
-
-Have you created a translation of the course notes from this class? Submit a
-[pull request](https://github.com/missing-semester/missing-semester/pulls) so
-we can add it to the list!
-
-## Acknowledgements
-
-We thank Elaine Mello, Jim Cain, and [MIT Open
-Learning](https://openlearning.mit.edu/) for making it possible for us to
-record lecture videos; Anthony Zolnik and [MIT
-AeroAstro](https://aeroastro.mit.edu/) for A/V equipment; and Brandi Adams and
-[MIT EECS](https://www.eecs.mit.edu/) for supporting this class.
+**Staff**: This class is taught by [Chris Kanich]({{ site.ckanich }}).   
+**Questions**: Email us at [{{ site.email }}](mailto:{{site.email}}).
 
 ---
 
 <div class="small center">
-<p><a href="https://github.com/missing-semester/missing-semester">Source code</a>.</p>
-<p>Licensed under CC BY-NC-SA.</p>
-<p>See <a href="/license/">here</a> for contribution &amp; translation guidelines.</p>
+<p><a href="{{ site.repository }}">Source code</a>.</p>
+<p>Licensed under CC BY-NC-SA. <a href="/license/">More information about this license.</a></p>
 </div>
